@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_margin="@dimen/_2sdp"
+    android:background="@color/color_dark_blue"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_190sdp"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        app:cardCornerRadius="30dp"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:src="@drawable/sharp_close_24"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tv_book_name"
+        android:textColor="@color/white"
+        android:fontFamily="@font/drummon"
+        android:text="Dunyoning ishlari"
+        android:textSize="@dimen/_13ssp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_author_name"
+        android:textColor="@color/text_author"
+        android:text="O'tkir hoshimov"
+        android:textSize="@dimen/_8ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/baseline_star_24"
+            />
+
+        <TextView
+            android:id="@+id/star_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.1 - 100ta fikr"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/text_author"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

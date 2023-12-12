@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/booksFragment"
+            android:title="Barcha kitoblar"
+            android:icon="@drawable/book"
+            tools:ignore="MenuTitle" />
+        <item
+            android:id="@+id/authorsFragment"
+            android:title="Mua'liflar"
+            android:icon="@drawable/author"
+            tools:ignore="MenuTitle" />
+        <item
+            android:id="@+id/worldFragment"
+            android:title="Jahon adabiyoti"
+            android:icon="@drawable/earth"
+            tools:ignore="MenuTitle" />
+        <item
+            android:id="@+id/uzbekFragment"
+            android:title="O'zbek adabiyoti"
+            android:icon="@drawable/uzb"
+            tools:ignore="MenuTitle" />
+        <item
+            android:id="@+id/downloadingFragment"
+            android:title="Yuklanganlar"
+            android:icon="@drawable/download"
+            tools:ignore="MenuTitle" />
+        <item
+            android:id="@+id/aboutProg"
+            android:title="Dastur aqida"
+            android:icon="@drawable/about"
+            tools:ignore="MenuTitle" />
+        </group>
+</menu>

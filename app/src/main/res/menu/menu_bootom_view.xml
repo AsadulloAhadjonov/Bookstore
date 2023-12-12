@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/booksFragment"
+        android:title="Books"
+        android:icon="@drawable/book"
+        />
+
+    <item
+        android:id="@+id/authorsFragment"
+        android:title="Authors"
+        android:icon="@drawable/author_bottom"
+        />
+
+    <item
+        android:id="@+id/downloadingFragment"
+        android:title="Download"
+        android:icon="@drawable/download"
+        />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Profile"
+        android:icon="@drawable/profile_noclick"
+        />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#152C3F</color>
+    <color name="button_color">#010C49</color>
+    <color name="color_dark_blue">#fff</color>
+    <color name="text">#000</color>
+    <color name="text_author">#000</color>
+    <color name="edt">#cecece</color>
+    <color name="text_btn">#fff</color>
+    <color name="ll"></color>
+</resources>

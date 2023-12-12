@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/book_navigation"
+    app:startDestination="@id/booksFragment">
+
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.asadullo.bookstore.UI.book.BooksFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_books" />
+    <fragment
+        android:id="@+id/authorsFragment"
+        android:name="com.asadullo.bookstore.UI.Authors.AuthorsFragment"
+        android:label="Authosr"
+        tools:layout="@layout/fragment_authors" />
+    <fragment
+        android:id="@+id/aboutBookFragment"
+        android:name="com.asadullo.bookstore.UI.AboutBookFragment"
+        android:label="AboutBook"
+        tools:layout="@layout/fragment_about_book" />
+    <fragment
+        android:id="@+id/popularBooksFragment"
+        android:name="com.asadullo.bookstore.UI.PopularBooksFragment"
+        android:label="PapularBook"
+        tools:layout="@layout/fragment_popular_books" />
+    <fragment
+        android:id="@+id/downloadingFragment"
+        android:name="com.asadullo.bookstore.UI.Download.DownloadingFragment"
+        android:label="fragment_downloading"
+        tools:layout="@layout/fragment_downloading" />
+    <fragment
+        android:id="@+id/uzbekFragment"
+        android:name="com.asadullo.bookstore.UI.Uzbek.UzbekFragment"
+        android:label="fragment_uzbek"
+        tools:layout="@layout/fragment_uzbek" />
+    <fragment
+        android:id="@+id/worldFragment"
+        android:name="com.asadullo.bookstore.UI.World.WorldFragment"
+        android:label="fragment_world"
+        tools:layout="@layout/fragment_world" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.asadullo.bookstore.UI.Profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fragmentCustomAuthors"
+        android:name="com.asadullo.bookstore.UI.Authors.fragmentPager.FragmentCustomAuthors"
+        android:label="fragment_custom_authors"
+        tools:layout="@layout/fragment_custom_authors" />
+    <fragment
+        android:id="@+id/fragmentCustom"
+        android:name="com.asadullo.bookstore.UI.book.fragmentPager.FragmentCustom"
+        android:label="fragment_custom"
+        tools:layout="@layout/fragment_custom" />
+    <fragment
+        android:id="@+id/aboutAuthorsFragment"
+        android:name="com.asadullo.bookstore.UI.AboutAuthorsFragment"
+        android:label="fragment_about_authors"
+        tools:layout="@layout/fragment_about_authors" />
+</navigation>
