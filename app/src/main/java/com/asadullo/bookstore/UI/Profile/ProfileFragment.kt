@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.asadullo.bookstore.R
 import com.asadullo.bookstore.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {
@@ -24,6 +26,10 @@ class ProfileFragment : Fragment() {
                 binding.switch1.text = "Lightmode"
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
+        }
+
+        binding.btnUpdate.setOnClickListener{
+            findNavController().navigate(R.id.fragmentUpdate)
         }
 
         return binding.root

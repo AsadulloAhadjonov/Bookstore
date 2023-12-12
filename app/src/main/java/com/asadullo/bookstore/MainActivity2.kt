@@ -15,14 +15,13 @@ import com.google.android.material.navigation.NavigationView
 
 class MainActivity2 : AppCompatActivity() {
     private lateinit var appBarConfigurationNavView: AppBarConfiguration
-    private lateinit var appBarConfigurationBottomNav: AppBarConfiguration
     private val binding by lazy { ActivityMain2Binding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        setSupportActionBar(binding.toolbar)  // ActionBar ni Toolbar bilan o'rnatish
+        setSupportActionBar(binding.toolbar)
 
         val navView: NavigationView = binding.navView
         val bottomNavigationView: BottomNavigationView = binding.bottomNavigation
